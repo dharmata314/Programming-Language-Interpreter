@@ -119,7 +119,6 @@ func (bs *BlockStatement) String() string {
 	return out.String()
 }
 
-// Expressions
 type Identifier struct {
 	Token token.Token
 	Value string
